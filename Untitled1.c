@@ -4,8 +4,8 @@
 int main() {
     int i;
 
-    for(i = 1; i <= 5; i++) {
-        printf("%d\n", i);
+    for(i = 10; i >= 1; i--) {
+        printf("%d ", i);
     }
 
     return 0;
