@@ -1,14 +1,13 @@
-
 #include <stdio.h>
 
 int main() {
-    int i, sum = 0;
+    int i;
 
-    for(i = 1; i <= 5; i++) {
-        sum = sum + i;
+    for(i = 1; i <= 10; i++) {
+        if(i % 2 != 0) {
+            printf("%d ", i);
+        }
     }
-
-    printf("%d", sum);
 
     return 0;
 }
